@@ -1,8 +1,8 @@
 export function Header(){
     return (
-        <div className="header">
+        <div className="header flex justify-between px-10 py-5">
             <div className="left">
-                <div className="logo font-oswald">Finaus</div>
+                <div className="font-inter logo border border-black px-4 py-2 rounded-2xl transition ease-in-out delay-200 hover:bg-black hover:text-white hover:scale-110 cursor-pointer">Finaus</div>
             </div>
             <div className="right">
                 <ul className="links">
