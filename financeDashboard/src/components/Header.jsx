@@ -1,4 +1,7 @@
 import { Link } from "./Link.jsx"
+import settings from '/setting.png'
+import profile from '/person.png'
+import notification from '/notification.png'
 export function Header(){
     return (
         <div className="header flex justify-between items-center px-10 py-5">
@@ -17,12 +20,16 @@ export function Header(){
                     <Link text={'Reviews'}/>
             
                 </div>
-                <div className="settings">
-                    {/* <img src="" alt="" srcset="" />     */}
+                <div className="settings flex gap-2 border border-black rounded-full  bg-white p-2 transition delay-150 ease-in-out cursor-pointer hover:scale-105">
+                    <img src={settings} alt="setting icon" className="max-w-5" />    
                     <div className="setting">Settings</div>
                 </div> 
-                <div className="notifications"></div>
-                <div className="profile"></div>
+                <div className="notifications flex gap-2 border border-black rounded-full  bg-white p-2 transition delay-150 ease-in-out cursor-pointer hover:scale-105">
+                    <img src={notification} alt="notification icon" className="max-w-5" />
+                </div>
+                <div className="profile flex gap-2 border border-black rounded-full  bg-white p-2 transition delay-150 ease-in-out cursor-pointer hover:scale-105">
+                    <img src={profile} alt="profile icon" className="max-w-5" />
+                </div>
             </div>
             
         </div>
