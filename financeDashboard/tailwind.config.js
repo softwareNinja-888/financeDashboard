@@ -10,6 +10,15 @@ export default {
         lightGray: '#e3e4e6',
         lightYellow: '#f8f4b7',
       },
+      fontFamily:{
+        oswald : ['oswald','sans-serif'],
+        roboto: ['roboto', 'sans-serif'],
+        space: ['space','sans-serif'],
+        ant: ['ant','sans-serif'],
+        inc: ['inc','sans-serif'],
+        inter: ['inter','sans-serif'],
+        mont: ['mont','sans-serif'],
+      }
     },
   },
   plugins: [],

@@ -2,3 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face{
+    font-family: 'roboto';   
+    src: url('../public/fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'oswald';   
+    src: url('../public/fonts/Oswald/static/Oswald-Medium.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+   }
+@font-face{
+    font-family: 'space';   
+    src: url('../public/fonts/Space_Grotesk/static/SpaceGrotesk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   }
+@font-face{
+    font-family: 'ant';   
+    src: url('../public/fonts/Anton/Anton-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   }
+@font-face{
+    font-family: 'inc';   
+    src: url('../public/fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   }
+@font-face{
+    font-family: 'inter';   
+    src: url('../public/fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   }
+@font-face{
+    font-family: 'mont';   
+    src: url('../public/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   }

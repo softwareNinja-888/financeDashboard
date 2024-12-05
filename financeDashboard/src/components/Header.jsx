@@ -2,18 +2,18 @@ export function Header(){
     return (
         <div className="header">
             <div className="left">
-                <div className="logo">Finaus</div>
+                <div className="logo font-oswald">Finaus</div>
             </div>
             <div className="right">
                 <ul className="links">
                     <a href="">
-                        <li>Dashboard</li>
+                        <li className="">Dashboard</li>
                     </a><a href="">
-                        <li>People </li>
+                        <li className="">People </li>
                     </a><a href="">
-                        <li>Hiring </li>
+                        <li className="">Hiring </li>
                     </a><a href="">
-                        <li>Devices </li>
+                        <li className="">Devices </li>
                     </a><a href="">
                         <li>App </li>
                     </a><a href="">
