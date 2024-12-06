@@ -19,6 +19,9 @@ export default {
         inc: ['inc','sans-serif'],
         inter: ['inter','sans-serif'],
         mont: ['mont','sans-serif'],
+      },
+      backgroundImage:{
+        profile: "url('/headshot.jpg')"
       }
     },
   },
