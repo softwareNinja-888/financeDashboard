@@ -7,34 +7,26 @@ import { financeData } from '../data/data';
 
 // ChartJS.register(ArcElement, Tooltip, Legend);
 
-function LineGraphs(){
-
-    const data = [
-        { name: 'Jan', Income: 30, value2: 50 },
-        { name: 'Feb', Income: 45, value2: 55 },
-        { name: 'Mar', Income: 60, value2: 65 },
-        { name: 'Apr', Income: 50, value2: 70 },
-        { name: 'May', Income: 70, value2: 80 },
-        { name: 'Jun', Income: 90, value2: 100 },
-      ];
+function LineGraphs(props){
+    // console.log(props.data);
 
   return (
     <div className="p-2">
          <LineChart
-      width={500}
-      height={300}
-      data={data}
-      margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
-    >
+            width={500}
+            height={300}
+            data={props.data}
+            margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+        >
       <CartesianGrid stroke="#d8a17e" strokeDasharray="5 5" />
-      <XAxis dataKey="name" stroke="#d8a17e" />
+      <XAxis dataKey="month" stroke="#d8a17e" />
       <YAxis stroke="#d8a17e" />
       <Tooltip contentStyle={{ backgroundColor: '#f5f5f5', border: '1px solid #ccc' }} />
       <Legend />
       {/* First line */}
-      <Line type="monotone" dataKey="Income" stroke="#ff7300" strokeWidth={2} />
+      <Line type="monotone" dataKey="income" stroke="#ff7300" strokeWidth={2} />
       {/* Second line */}
-      <Line type="monotone" dataKey="value2" stroke="#8884d8" strokeWidth={2} />
+      <Line type="monotone" dataKey="expense" stroke="#8884d8" strokeWidth={2} />
     </LineChart>
     </div>
   );
@@ -76,25 +68,6 @@ function ProOne(props){
     );
     
 }
-
-// function ProTwo(){
-//     const data = {
-//         datasets: [
-//             {
-//                 data: [70, 30], // 70% progress
-//                 backgroundColor: ['#4caf50', '#e0e0e0'], // Progress and background colors
-//                 borderWidth: 0,
-//             },
-//         ],
-//     };
-
-//     const options = {
-//         cutout: '90%', // Controls the thickness of the circle
-//         plugins: { legend: { display: true } },
-//     };
-
-//     return <Doughnut data={data} options={options} />;
-// }
 
 function Circle(props){
     const data = [
