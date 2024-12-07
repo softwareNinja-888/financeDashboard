@@ -106,7 +106,7 @@ function Circle(props){
                     color: '#d8a17e',
                 }} 
             >
-                {financeData.formatMoney(props.chartInfo.target,'ZAR')}
+                {financeData.formatMoney(props.chartInfo.current,'ZAR')}
             </div>
         </div>
     );
