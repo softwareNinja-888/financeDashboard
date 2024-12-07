@@ -10,6 +10,7 @@ export default {
         lightGray: '#e3e4e6',
         lightYellow: '#f8f4b7',
         darkYellow: '#fee35b',
+        mainColor:'#d8a17e',
       },
       fontFamily:{
         oswald : ['oswald','sans-serif'],
