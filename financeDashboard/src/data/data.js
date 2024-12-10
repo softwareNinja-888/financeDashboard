@@ -78,6 +78,9 @@ const financeData = {
         createSavingsGoal(1, 'Emergency Fund', 15000, 5000),
         createSavingsGoal(2, 'Vacation', 3000, 2000),
         createSavingsGoal(3, 'Cash', 10000, 600),
+        createSavingsGoal(4,'Car',45000,2300),
+        createSavingsGoal(5,'House',1145000,213000),
+        
       ],
     },
     investments: [

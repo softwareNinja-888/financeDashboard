@@ -57,6 +57,8 @@ function ProOne(props){
                 .attr('fill', '#d8a17e');
             }
     }, [props.progress]);
+
+    console.log(props.progress);
     return (
         <div className="flex flex-col gap-2 transition ease-in-out delay-150 bg-black hover:bg-white hover:scale-105  max-w-60 p-4 rounded-3xl group shadow-md shadow-black cursor-pointer max-h-20">
             <div className="flex items-center gap-4">
@@ -65,8 +67,7 @@ function ProOne(props){
             </div>
             <svg ref={svg} id="progress-bar" className='rounded-full '></svg>
         </div>
-    );
-    
+    );   
 }
 
 function Circle(props){
