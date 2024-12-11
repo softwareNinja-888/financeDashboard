@@ -14,14 +14,40 @@ export function Insight(){
 
     return (
             <div className="flex flex-col items-center h-full rounded-3xl bg-white cursor-pointer">
-                <div className="insightHead">
-                    <span className="">All Expenses</span>
+                <div className="income flex flex-col items-center pt-4">
+                    <div className="insightHead">
+                        <span className="font-space text-xl">All Income</span>
+                    </div> 
+                    <div className="flex flex-row justify-around px-4 pt-4 text-sm min-w-full">
+                        <div className="flex flex-col ">
+                            <span className="">Monthly Avg</span>
+                            <span className="font-bold">R 2 600</span>
+                        </div>
+                        <div className="flex flex-col ">
+                            <span className="">Yearly Avg</span>
+                            <span className="font-bold">R 2 600</span>
+                        </div>
+                    </div>
+                    <SegmentCircle dataNew={data}/>
+                   
                 </div>
-                <SegmentCircle dataNew={data}/>
-                <div className="cat">
-                    <span className=""></span>
-                    <span className=""></span>
-                    <span className=""></span>
+                <div className="expense flex flex-col items-center">
+                    <div className="insightHead">
+                        <span className="font-space text-xl">All Expense</span>
+                    </div>
+                    <div className="flex flex-row justify-around px-4 pt-4 text-sm min-w-full">
+                    <div className="flex flex-col">
+                            <span className="">Monthly Avg</span>
+                            <span className="font-bold">R 2 600</span>
+                        </div>
+                        <div className="flex flex-col ">
+                            <span className="">Yearly Avg</span>
+                            <span className="font-bold">R 2 600</span>
+                        </div>
+                    </div>
+                        
+                    <SegmentCircle dataNew={data}/>
+                   
                 </div>
             </div>
         )

@@ -203,7 +203,7 @@ function SegmentCircle({ dataNew }) {
               activeShape={renderActiveShape}
               data={dataNew}
               cx={140}
-              cy={120}
+              cy={140}
               innerRadius={40}
               outerRadius={60}
               fill="#8884d8"
