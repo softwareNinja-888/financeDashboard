@@ -44,22 +44,22 @@ function createSavingsGoal(id, name, target, current) {
 const financeData = {
   
     income: [
-      createIncome(1, 'Salary', 5000, 'Jan'),
-      createIncome(2, 'Freelancing', 1500, 'Feb'),
-      createIncome(3, 'Salary', 1800, 'Mar'),
+      createIncome(1, 'Salary', 2000, 'Jan'),
+      createIncome(2, 'Freelancing', 1900, 'Feb'),
+      createIncome(3, 'Salary', 2800, 'Mar'),
       createIncome(4, 'Freelancing', 2000, 'Apr'),
       createIncome(5, 'Salary', 2200, 'May'),
       createIncome(6, 'Freelancing', 1500, 'Jun'),
       createIncome(7, 'Salary', 3000, 'Jul'),
       createIncome(8, 'Freelancing', 2000, 'Aug'),
       createIncome(9, 'Salary', 2100, 'Sep'),
-      createIncome(10, 'Freelancing', 1200, 'Oct'),
+      createIncome(10, 'Freelancing', 1900, 'Oct'),
       createIncome(11, 'Salary', 2500, 'Nov'),
       createIncome(12, 'Freelancing', 2000, 'Dec'),
     ],
 
     expenses: [
-      createExpense(1, 'Rent', 4500, 'Jan'),
+      createExpense(1, 'Rent', 3500, 'Jan'),
       createExpense(2, 'Groceries', 1300, 'Feb'),
       createExpense(3, 'Rent', 2000, 'Mar'),
       createExpense(4, 'Groceries', 1800, 'Apr'),

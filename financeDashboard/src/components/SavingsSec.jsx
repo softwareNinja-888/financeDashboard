@@ -1,14 +1,21 @@
 import { financeData } from "../data/data.js";
 import { ProOne } from "./Charts.jsx";
 import car from '/car.png'
-export function Saving(name,img,progress){
+export function Saving(){
     
-    // console.log(financeData.savings.goals);
+    // Editing data
+
     const dataSaving = financeData.savings.goals
     const refinedData = dataSaving.filter(i=>{
         return i.name !== 'Cash'
     }).slice(-4)
-    console.log(refinedData);
+
+    // Getting images
+    // TODO 
+    // USE ASYNC JS TO FECTH IMGS FROM WEB TO DYNAMICALLY ADD TO SAVINGS GOAL SECTION. Make sure there are in proper colors 
+
+
+
     return (
         <>
             {refinedData.map((obj)=>{
